@@ -10,7 +10,7 @@ const CategoryBanner: React.FC<CategoryBannerProps> = ({ className = 'mb-7', cat
   const categoryTitle = category?.name.toString().split(' ').join('');
   return (
     <div
-      className={`bg-base-200 h-570-px rounded-md overflow-hidden relative flex flex-row mt-6 ${className}`}
+      className={`bg-base-500 h-570-px rounded-md overflow-hidden relative flex flex-row minus-margin ${className}`}
     >
       <div className="hidden md:flex h-auto">
         <img src={category?.backgroundImage?.url} alt="" />
