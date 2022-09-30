@@ -1,0 +1,22 @@
+.sign-up__button{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #F000B8;
+    border-radius: 10px;
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 97.4%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EBEFF2;
+
+}
+
+.sign-up__button:hover{
+    background-color: #F000B8;
+    --tw-shadow: 0 3px 6px rgba(0,0,0,0.12);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}

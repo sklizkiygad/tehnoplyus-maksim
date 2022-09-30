@@ -1,0 +1,40 @@
+.product__price-container{
+    width: 33%;
+    height: 25px;
+    margin: 11.5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__price{
+    float: left;
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #A11B87;
+}
+
+.product__old-price{
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-decoration-line: line-through;
+    color: #B1ACA8;
+}
+
+.product__button-buy{
+    display: block;
+    width: 45%;
+    height: 48px;
+    background-color: #A21B87;
+    border-radius: 10px;
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 97.4%;
+    text-align: center;
+    color: #EBEFF2;
+}

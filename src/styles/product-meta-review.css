@@ -1,0 +1,9 @@
+.product__description{
+    font-family: 'Museo Sans Cyrl';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 137%;
+    color: #989898;
+    display: block;
+    margin: 10px auto;
+}

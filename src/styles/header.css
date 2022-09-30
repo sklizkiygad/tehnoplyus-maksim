@@ -1,0 +1,68 @@
+header{
+    height: auto;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+
+}
+header > div{
+    height: calc(6rem + 24px) !important;
+}
+
+.header__input-container{
+    padding: 0 30px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:768px ) {
+    .header__input-container{
+        display: none !important;
+    }
+}
+.input__clear.false{
+    display: none;
+}
+
+.header__clear-button.true{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 40%;
+    right: 10px;
+    top: 30%;
+}
+
+.header__clear-button.false{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .sub-header{
+        display: none !important;
+    }
+}
+
+.sub-header{
+    position: relative;
+    top: 0;
+    background: #471771;
+    height: 63px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sub-header > h3{
+    font-family: 'Museo Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0;
+}
